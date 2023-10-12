@@ -2,7 +2,7 @@
 # programming language：matlab and python
 # run  main.py
 # Step 1:non-Parametric State Estimation (matlab)
-Parameters：TC = load('\dataname.txt'),n = 5,subj = 4,sublen = 200
+    Parameters：TC = load('\dataname.txt'),n = 5,subj = 4,sublen = 200
 # Step 2: Dynamic Effective Connectivity Learning (python)
     eng = matlab.engine.start_matlab()
     [NC, TP] = eng.nPSE # Output of Step 1
