@@ -1,12 +1,13 @@
 # Dynamic Effective Connectivity Learning based on non- Parametric State Estimation and GAN (nPSE-GAN)
-# Program entry: main.py
 # programming language：matlab and python
+# Program entry:
+              run main.py
 Step 1:non-Parametric State Estimation (matlab)
-  
+Parameter：TC = load('\dataname.txt'),n = 5,subj = 4,sublen = 200
 Step 2: Dynamic Effective Connectivity Learning (python)
+Parameter：lr=0.01, dlr=0.01, l1=0.1, nh=100, dnh=100, train_epochs=400, test_epochs=1600
 
 ## Requirments
-
 * pyhton 3.7
 * numpy 1.19.2
 * pandas 1.2.2
