@@ -4,9 +4,9 @@
 # Step 1:non-Parametric State Estimation (matlab)
 Parameters：TC = load('\dataname.txt'),n = 5,subj = 4,sublen = 200
 # Step 2: Dynamic Effective Connectivity Learning (python)
- eng = matlab.engine.start_matlab()\\
-    [NC, TP] = eng.nPSE # Output of Step 1\\
-    p_txt = "/dataname.txt"\\
+    eng = matlab.engine.start_matlab()
+    [NC, TP] = eng.nPSE # Output of Step 1
+    p_txt = "/dataname.txt"
  
     data = np.zeros((sub*TP[0], n))
     for i in range(0, sub):
